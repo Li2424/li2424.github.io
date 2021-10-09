@@ -28,4 +28,12 @@ body {
     background-color: #04AA6D;
     color: white;
   }
-  
+  .js_inactive  {
+    background-color: crimson;
+    color: white;
+    font-family: Arial;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 24px;
+  }

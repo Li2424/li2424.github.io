@@ -35,7 +35,15 @@ body {
   font-family: arial;
   text-decoration: none;
 }
-
+.js_inactive  {
+  background-color: crimson;
+  color: white;
+  font-family: Arial;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 24px;
+}
 /*Slideshow*/
 
 * {box-sizing:border-box}
