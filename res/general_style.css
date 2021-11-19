@@ -8,6 +8,8 @@ body {
 .topnav {
     background-color: #333;
     overflow: hidden;
+  padding: 12px;
+  border-radius: 12px;
   }
   
   .topnav a {
@@ -17,18 +19,29 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 8px;
+    margin: 4px;
+    transition: 0.3s;
   }
   
   .topnav a:hover {
     background-color: rgb(255, 255, 255);
+    padding: 24px;
     color: black;
   }
   
   .topnav a.active {
     background-color: #0497aa;
-    color: white;
+    color: white;    
   }
-  
+
+.roundObject {
+  color: #e4feff;
+  background-color: #0497aa;
+  width: fit-content;
+  padding: 12px;
+  border-radius: 8px;
+}
 
 .js_inactive  {
   background-color: crimson;
@@ -38,4 +51,24 @@ body {
   height: auto;
   text-align: center;
   font-size: 24px;
+  border-radius: 12px;
+}
+.info-01 {
+  background-color: darkcyan;
+  padding: 24px;
+  border-radius: 24px;
+  display: flex;
+  vertical-align: center;
+}
+
+.info-01 img {
+  width:50px;
+  height:50px;
+  border-radius: 12px;
+  padding: 6px;
+  background-color: #b5e61d;
+}
+.info-01 .content {
+  margin-top: 6px;
+  margin-left: 18px;
 }

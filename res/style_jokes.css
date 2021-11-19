@@ -10,6 +10,7 @@ body {
     padding: 20px;
     text-align: center;
     font-weight: 900;
+    border-radius: 6px;
     color: #fff;
     position:relative;
   }
